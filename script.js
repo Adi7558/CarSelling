@@ -52,3 +52,13 @@ valueDisplay.forEach((valueDisplay) => {
   }, duration);
 });
 
+/** */
+
+var swiper = new Swiper(".myClients", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
